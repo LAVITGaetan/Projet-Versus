@@ -1,0 +1,24 @@
+.cadre{
+    height: 600px;
+    width: 70%;
+    margin-left: 15%;
+    border: 15px solid red;
+    display: flex;
+    margin-top: 100px;
+}
+.player1{
+    margin-left: 50px;
+    padding: 100px;
+}
+#versus{
+    margin-top: 150px;
+}
+.player2{
+ padding: 100px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
