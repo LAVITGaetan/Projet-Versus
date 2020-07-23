@@ -1,0 +1,40 @@
+.cadre{
+    width: 70%;
+    margin-left: 15%;
+    margin-top:100px ;
+    border: 15px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #29323c , #485563);
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: whitesmoke;
+      
+}
+.player1, .player2{
+    margin: 100px 0px 0px 0px;
+}
+.player1{
+    border: 15px double #656abc;
+}
+.player2{
+    border: 15px double #e8b637;
+}
+#gin{
+    color: #656abc;
+    border: 5px solid #656abc;
+}
+#adolf{
+    color: #e8b637;
+    border: 5px solid #e8b637;    
+}
+.player1:hover, .player2:hover{
+    filter: brightness(50%);
+}
